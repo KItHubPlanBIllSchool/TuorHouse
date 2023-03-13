@@ -1,4 +1,6 @@
+
 <!doctype html>
+
 <html>
 <head>
   <meta charset="UTF-8">
@@ -26,7 +28,7 @@
               <a href="#" class="block px-4 py-2 hover:bg-gray-100">Earnings</a>
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sign out</a>
+              <a href="logout.php" class="block px-4 py-2 hover:bg-gray-100">Sign out</a>
             </li>
           </ul>
       </div>

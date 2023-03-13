@@ -28,7 +28,7 @@
 				</form>
 			</div>
 			<div class="bg-white border text-center pt-3 pb-1">
-				<p>Есть аккаунт? <a href="auto.php">Вход</a></p>
+				<p>Есть аккаунт? <a href="login.php">Вход</a></p>
 			</div>
 		</div>
 	</div>
