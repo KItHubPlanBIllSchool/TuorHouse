@@ -11,10 +11,10 @@
         <div class="text-center">
             
         </div> 
-        <form method="POST" action="proverka.php">
+        <form method="POST" action="process.php">
             <input type="nickname" name="nickname" class="form-control my-2" placeholder="логин">
             <input type="password" name="password" class="form-control my-2" placeholder="Пароль">
-            <button  class="btn btn-primary btn-sm px-5 my-1">Войти</button>
+            <button  class="btn btn-primary btn-sm px-5 my-1" name="Login">Войти</button>
         </form>
 
         <?php 
