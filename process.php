@@ -9,8 +9,8 @@ session_start();
        }
        else
        {
-            $select = "SELECT * FROM logins WHERE login = '".$_POST['nickname']."'";
-            $result=mysqli_query($connect,$select);
+            $query="select * from logins where login ='".$_POST['nickname']."' and password='".$_POST['password']."'";
+            $result=mysqli_query($connect,$query);
 
             if(mysqli_fetch_assoc($result))
             {

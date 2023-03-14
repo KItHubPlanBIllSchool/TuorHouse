@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
 </head>
 <body class="bg-light">
+    <?php
+            if($_GET['success']==true)
+            {
+        ?>      
+            <div class="bg-warning border text-center pt-3 pb-1">
+                <?php echo $_GET['success'] ?>
+            </div>
+        <?php }
+        ?>
     <div class="col-3 mx-auto border bg-white mt-2 py-5 px-5">
         <div class="text-center">
             

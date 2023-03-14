@@ -13,6 +13,16 @@
 		
 		<!-- форма -->
 		<div class="col-6 pt-3">
+		<?php
+			if($_GET['Empty']==true)
+			{
+		?>		
+			<div class="bg-danger border text-center pt-3 pb-1">
+				<?php echo $_GET['Empty'] ?>
+			</div>
+		<?php }
+		?>
+			
 			<div class="text-center px-5 pt-1 bg-white border mb-2 pt-4">
 				
 				<h6>Зарегистрируйтесь, чтобы выполнять задания.</h6>

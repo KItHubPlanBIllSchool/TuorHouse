@@ -8,7 +8,7 @@
     }
     else
     {
-        header("location:index.php");
+        header("location:index.php?Empty=Please login or register to continue");
     }
 
 ?>
