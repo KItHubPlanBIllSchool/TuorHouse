@@ -1,25 +1,25 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
-<style>
-      @font-face {
-        font-family: comfortaa; /* Гарнитура шрифта */
-        src: url(font/Comfortaa.ttf); /* Путь к файлу со шрифтом */
-        }
-        p{
-            font-family: comfortaa;
-        }
-        a{
-            font-family: comfortaa;
-        }
+	<!doctype html>
+	<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <script src="https://cdn.tailwindcss.com"></script>
+	  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+	<style>
+	      @font-face {
+	        font-family: comfortaa; /* Гарнитура шрифта */
+	        src: url(font/Comfortaa.ttf); /* Путь к файлу со шрифтом */
+	        }
+	        p{
+	            font-family: comfortaa;
+	        }
+	        a{
+	            font-family: comfortaa;
+	        }
 
-  </style>
-</head>
-<body class="bg-[#CBCABB]">
+	  </style>
+	</head>
+	<body class="bg-[#CBCABB]">
   <div class="bg-[#2F4923] flex h-16 w-screen flex">
     <div class="w-2/5">
         <img src="img/logo.svg" alt="" class="my-auto mx-5">
