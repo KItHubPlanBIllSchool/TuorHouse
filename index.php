@@ -54,7 +54,7 @@
           </ul>
       </div>
         
-            <a href="#" class="inline-block p-4 text-white border-b-2 rounded-t-lg active text-2xl" aria-current="page">Каталог</a>
+            <a href="wellcome.php" class="inline-block p-4 text-white border-b-2 rounded-t-lg active text-2xl" aria-current="page">Каталог</a>
         
 
     </div>
