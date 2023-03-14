@@ -97,7 +97,7 @@
     </div>
   </div>
 </div>
-<div class="h-screen" style="background-image:url(img/next.svg); background-repeat: no-repeat;" class="bg-auto">
+<div class="h-screen" style="background-image:url(img/log.svg); background-repeat: no-repeat;" class="bg-auto">
   
 </div>
  

@@ -1,47 +1,54 @@
-<!-- регистрация -->
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>TItle</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-</head>
-<body class="bg-light">
-<div class="col-5 mx-auto mt-5">
-	<div class="row">
-		<!-- картинка -->
-		
-		<!-- форма -->
-		<div class="col-6 pt-3">
-		<?php
-			if($_GET['Empty']==true)
-			{
-		?>		
-			<div class="bg-danger border text-center pt-3 pb-1">
-				<?php echo $_GET['Empty'] ?>
-			</div>
-		<?php }
-		?>
-			
-			<div class="text-center px-5 pt-1 bg-white border mb-2 pt-4">
-				
-				<h6>Зарегистрируйтесь, чтобы выполнять задания.</h6>
-				<form method="POST" action="input.php">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+<style>
+      @font-face {
+        font-family: comfortaa; /* Гарнитура шрифта */
+        src: url(font/Comfortaa.ttf); /* Путь к файлу со шрифтом */
+        }
+        p{
+            font-family: comfortaa;
+        }
+        a{
+            font-family: comfortaa;
+        }
 
-					<input type="" name="nickname" class="form-control my-2" placeholder="Имя пользователя">
-					<input type="password" name="password" class="form-control my-2" placeholder="Пароль">
-					<input type="gorod" name="gorod" class="form-control my-2" placeholder="Город">
-					<div class="text-center">
-						<button class="btn btn-primary btn-sm px-5 my-1">Регистрация</button>
-						<p class="text-secondary">Регистрируясь, вы принимаете наши Условия, Политику использования данных и Политику в отношении файлов cookie.</p>
-					</div>
-				</form>
-			</div>
-			<div class="bg-white border text-center pt-3 pb-1">
-				<p>Есть аккаунт? <a href="login.php">Вход</a></p>
-			</div>
-		</div>
-	</div>
-</div>
+  </style>
+</head>
+<body class="bg-[#CBCABB]">
+  <div class="bg-[#2F4923] flex h-16 w-screen flex">
+    <div class="w-2/5">
+        <img src="img/logo.svg" alt="" class="my-auto mx-5">
+    </div>
+      <div class="w-1/2 my-auto">
+          <p class="text-2xl text-[#CBCABB] ml-32">Регистрация</p>
+      </div>
+  </div>
+  <div class="w-2/6 mx-auto mt-14">
+      <div class="w-1/6 text-center my-auto mx-52">
+          <form method="POST" action="input.php" class="mx-auto">
+            <input name="nickname" placeholder="Логин" class=" text-center w-64 bg-[#CBCABB] border border-[#211714]">
+            <input name="password" placeholder="Пароль" class=" text-center w-64 bg-[#CBCABB] border border-[#211714]">
+            
+            <input name="phone" placeholder="+79998887766" class=" mt-5 text-center w-64 bg-[#CBCABB] border border-[#211714]">
+            <input name="adres" placeholder="Сергеляхское шоссе, 24 км" class=" text-center w-64 bg-[#CBCABB] border border-[#211714]">
+            <input name="gmail" placeholder="imbir'@cereal.com" class=" text-center w-64 bg-[#CBCABB] border border-[#211714]">
+            <button  class="w-64 h-10 mt-5 border rounded-lg border-[#211714] " name="Login"><p class="text-white">Зарегистрироваться</p></button>
+
+          
+        </form>
+
+        <?php 
+            echo $_GET['nouser'];
+         ?>
+      </div>
+  </div>
+    
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
 </body>
 </html>

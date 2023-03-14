@@ -10,7 +10,7 @@ if(empty($_POST['nickname']) || empty($_POST['password']))
        }
 else
 {
-        mysqli_query($connect, 'INSERT INTO logins (login, password, city) VALUES ("'.$_POST['nickname'].'", "'.$_POST['password'].'", "'.$_POST['gorod'].'")');
+        mysqli_query($connect, 'INSERT INTO logins (login, password, phonenumb, address, mail) VALUES ("'.$_POST['nickname'].'", "'.$_POST['password'].'", "'.$_POST['phone'].'", "'.$_POST['adres'].'", "'.$_POST['gmail'].'")');
         header('Location: login.php?success');
 }
 
