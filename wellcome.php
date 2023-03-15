@@ -26,6 +26,7 @@
         
             <img src="img/logo.svg" alt="" class="my-auto mx-5">
 
+
     <div class="mx-auto my-auto">
         <form>
             <div class="flex">
@@ -54,17 +55,17 @@
                         <span class="sr-only">Search</span>
                     </button>
                 </div>
-                <div class="mx-96">
-                <img src="img/izb.svg" alt="">
+                <div class="mx-96 flex">
+                    <img src="img/korzina.svg" alt="">
+                    <a href="lk.php"><img src="img/guy.svg" alt="" class="ml-14"></a>
                 </div>
             </div>
         </form>
     </div>
 </div>
 <div>
-    <a href="tovar.php">Добавить товар</a>
 </div>
-<div class="flex"><!---блоки--->
+<div class="flex mt-5"><!---блоки--->
 
         <div class="w-72 h-10 bg-[#2F4923] mx-auto rounded-t-lg border-4 border-[#211714]">
         <?php $result = $query->fetch_assoc(); ?>
@@ -74,7 +75,7 @@
             </div>
             <div class="w- h-10 bg-[#2F4923] mx-auto rounded-b-lg flex border-2 border-[#211714]">
                 <div class="w-1/2 h-full border-2 border-[#211714] mx-auto">
-                    <a class="text-white"><?php echo $result['cost'];?> </a>
+                    <a class="text-white">Цена:<?php echo $result['cost'];?> </a>
                 </div>
                 <div class="w-1/2 h-full border-2 border-[#211714] mx-auto"></div>
             </div>
@@ -87,7 +88,7 @@
             </div>
             <div class="w- h-10 bg-[#2F4923] mx-auto rounded-b-lg flex border-2 border-[#211714]">
                 <div class="w-1/2 h-full border-2 border-[#211714] mx-auto">
-                    <a class="text-white"><?php echo $result['cost'];?> </a>
+                    <a class="text-white">Цена:<?php echo $result['cost'];?> </a>
                 </div>
                 <div class="w-1/2 h-full border-2 border-[#211714] mx-auto"></div>
             </div>
@@ -100,7 +101,33 @@
             </div>
             <div class="w- h-10 bg-[#2F4923] mx-auto rounded-b-lg flex border-2 border-[#211714]">
                 <div class="w-1/2 h-full border-2 border-[#211714] mx-auto">
-                    <a class="text-white"><?php echo $result['cost'];?> </a>
+                    <a class="text-white">Цена:<?php echo $result['cost'];?> </a>
+                </div>
+                <div class="w-1/2 h-full border-2 border-[#211714] mx-auto"></div>
+            </div>
+        </div>
+        <div class="w-72 h-10 bg-[#2F4923] mx-auto rounded-t-lg border-4 border-[#211714]">
+        <?php $result = $query->fetch_assoc(); ?>
+    <a class="text-white"><?php echo $result['name'];?> </a> <!---блок--->
+            <div class="w-full h-80 bg-[#FFFFFF] mt-1 border-4 mx-auto border-[#211714] m">
+                <img src="img/primer.jfif">
+            </div>
+            <div class="w- h-10 bg-[#2F4923] mx-auto rounded-b-lg flex border-2 border-[#211714]">
+                <div class="w-1/2 h-full border-2 border-[#211714] mx-auto">
+                    <a class="text-white">Цена:<?php echo $result['cost'];?> </a>
+                </div>
+                <div class="w-1/2 h-full border-2 border-[#211714] mx-auto"></div>
+            </div>
+        </div>
+        <div class="w-72 h-10 bg-[#2F4923] mx-auto rounded-t-lg border-4 border-[#211714]">
+        <?php $result = $query->fetch_assoc(); ?>
+    <a class="text-white"><?php echo $result['name'];?> </a> <!---блок--->
+            <div class="w-full h-80 bg-[#FFFFFF] mt-1 border-4 mx-auto border-[#211714] m">
+                <img src="img/primer.jfif">
+            </div>
+            <div class="w- h-10 bg-[#2F4923] mx-auto rounded-b-lg flex border-2 border-[#211714]">
+                <div class="w-1/2 h-full border-2 border-[#211714] mx-auto">
+                    <a class="text-white">Цена:<?php echo $result['cost'];?> </a>
                 </div>
                 <div class="w-1/2 h-full border-2 border-[#211714] mx-auto"></div>
             </div>
