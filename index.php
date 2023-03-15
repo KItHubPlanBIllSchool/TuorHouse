@@ -19,13 +19,13 @@
     font-family:alegreya;
    }
    html, body {
-    max-width: 100%;
+   
     overflow-x: hidden;
 }
     </style>
 </head>
 <body>
-<div class="h-[900pxz]" style="background-image:url(img/bg.svg); background-repeat: no-repeat;" class="">
+<div class="h-[900px] w-screen" style="background-image:url(img/bg.svg); background-repeat: no-repeat;" class="">
   <div class="bg-[#2F4923]/50 flex">
     <div class="flex w-3/4 h-auto bg-opacity-25">
       <img src="img/logo.svg" alt="" class="my-auto mx-5">
@@ -81,7 +81,7 @@
       <!-- Dropdown menu -->
       <div id="dropdown2" class=" hidden bg-[#2F4923]/25 divide-y divide-gray-100 rounded-lg shadow w-44 text-white">
           <ul class="py-2 text-sm" aria-labelledby="dropdownDefaultButton">
-            <li>
+            <li>  
               <a href="#" class="block px-4 py-2 bg-[#2F4923] hover:bg-[#2F4923]/50">FAQ</a>
             </li>
             <li>

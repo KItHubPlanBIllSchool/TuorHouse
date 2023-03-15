@@ -28,7 +28,7 @@
       </div>
   </div>
   <div class="mx-auto mt-10">
-      <img src="img/biglogo.svg" alt="" class="mx-auto">
+      <a href="wellcome.php"><img src="img/biglogo.svg" alt="" class="mx-auto"></a>
   </div>
   <div class="bg-[#2F4923] w-2/6 mx-auto mt-14 h-64 flex rounded-lg border-4 border-[#211714] flex">
       <div class="w-1/6 text-center my-auto mx-72"> 
