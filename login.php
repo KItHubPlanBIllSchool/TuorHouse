@@ -31,7 +31,7 @@
       <img src="img/biglogo.svg" alt="" class="mx-auto">
   </div>
   <div class="bg-[#2F4923] w-2/6 mx-auto mt-14 h-64 flex rounded-lg border-4 border-[#211714] flex">
-      <div class="w-1/6 text-center my-auto mx-52">
+      <div class="w-1/6 text-center my-auto mx-72"> 
           <form method="POST" action="process.php" class="mx-auto">
             <input name="nickname" placeholder="логин" class=" text-center border rounded-lg border-4 border-[#211714] bg-[#1F450E] w-64">
             <input name="password" placeholder="Пароль" class="mt-5 text-center border rounded-lg border-4 border-[#211714] bg-[#1F450E] w-64">

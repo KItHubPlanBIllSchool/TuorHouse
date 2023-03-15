@@ -17,7 +17,7 @@
 
 					<input type="" name="Tname" class="form-control my-2" placeholder="Название товара">
 					<input type="money" name="money" class="form-control my-2" placeholder="Цена">
-					<input type="" name="image" class="form-control my-2" placeholder="Вставить картинку">
+					<input type="file" name="image" class="form-control my-2" placeholder="Вставить картинку" value="Upload">
 					<div class="text-center">
 						<button class="btn btn-primary btn-sm px-5 my-1">Поставить товар</button>
 					

@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-<div class="h-[900px]" style="background-image:url(img/bg.svg); background-repeat: no-repeat;" class="">
+<div class="h-[900pxz]" style="background-image:url(img/bg.svg); background-repeat: no-repeat;" class="">
   <div class="bg-[#2F4923]/50 flex">
     <div class="flex w-3/4 h-auto bg-opacity-25">
       <img src="img/logo.svg" alt="" class="my-auto mx-5">

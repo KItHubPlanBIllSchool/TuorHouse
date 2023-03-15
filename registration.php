@@ -29,7 +29,7 @@
       </div>
   </div>
   <div class="w-2/6 mx-auto mt-14">
-      <div class="w-1/6 text-center my-auto mx-52">
+      <div class="w-1/6 text-center my-auto mx-64">
           <form method="POST" action="input.php" class="mx-auto">
             <input name="nickname" placeholder="Логин" class=" text-center w-64 bg-[#CBCABB] border border-[#211714]">
             <input name="password" placeholder="Пароль" class=" text-center w-64 bg-[#CBCABB] border border-[#211714]">
